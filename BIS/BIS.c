@@ -22,10 +22,10 @@ loading_bar();
     users[2]=(user){"Bydzsh",123131233,123456,114514.19,"PASSWORD"};
 
 
-    printf("=============镜宇农村信用社财产管理系统==================\n");
+    printf("=============ydy农村信用社财产管理系统==================\n");
     printf("银行信息管理系统\n");
     printf("输入数字选择对应服务\n");
-    printf("1:存款\n2:取款\n3:转账\n4:查看账户信息\n5:创建账户\n6:注销账户\n7:为陈镜宇歌功颂德\n0:退出\n");
+    printf("1:存款\n2:取款\n3:转账\n4:查看账户信息\n5:创建账户\n6:注销账户\n7:为ydy歌功颂德\n0:退出\n");
     printf("========================================================\n");    
         while(1){
      if(scanf("%d",&userchoice)!=1) {
@@ -41,7 +41,7 @@ loading_bar();
             case 4: Check_information();break;
             case 5: Add_user();break;
             case 6: Delete_user();break;
-            case 7: printf("陈镜宇是最棒的！\n");break;
+            case 7: printf("ydy是最棒的！\n");break;
             case 0: printf("欢迎再次使用");return 0;
             default:printf("wrong input!");
         };
